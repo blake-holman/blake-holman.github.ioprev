@@ -1,0 +1,139 @@
+---
+layout: 
+---
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-183920121-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-183920121-1');
+</script>
+
+  <title>Blake Holman</title>
+
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <meta name="author" content="Blake Holman" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+
+
+<body>
+  <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:60%;vertical-align:middle">
+              <h1>
+                Blake Holman
+              </h1>
+              <p>
+                I'm Blake, a first-year PhD student in computer science at Purdue University!
+            </p>
+                I am broadly interested in cryptography and theoretical computer science. Currently, I'm researching the classical and post-quantum security of memory-hard functions with my advisor <a target="_blank" href="https://www.cs.purdue.edu/homes/jblocki/">Jeremiah Blocki</a>. I'm grateful to be supported by the Ross Fellowship at Purdue for the 2021-2022 academic year and the Ford Foundation Predoctoral Fellowship starting Fall 2022.
+            <p>
+               Prior to joining Purdue, I studied computer science and mathematics at the University of Texas at Austin as a Ronald E. McNair Scholar. At UT I worked with <a target="_blank" href="https://www.cs.utexas.edu/users/plaxton/index.html">Greg Plaxton</a> on three-dimensional stable marriage and conducted research as a part of the <a target="_blank" href="https://www.cs.utexas.edu/~larg/bwi_web/">Building-Wide Intelligence Project</a> with <a target="_blank" href="http://justinhart.net/">Justin Hart</a>.
+            </p>
+        
+              <p style="text-align:center">
+                <a target="_blank" href="mailto:Blake@purdue.edu"> Email</a> &nbsp;/&nbsp;
+                <!-- <a target="_blank" href="https://github.com/AbrarAnwar">GitHub</a> &nbsp;/&nbsp; -->
+                <a target="_blank" href="https://www.linkedin.com/in/blake-holman-45180514b"> LinkedIn </a> &nbsp;/&nbsp;
+                <a target="_blank" href="assets/Blake_Holman_CV.pdf"> CV </a> &nbsp;
+                <!-- <a href="/blog.html"> Blog </a>  -->
+                
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="assets/images/index/temp_pic.jpg">
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Research</h2>
+
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+
+          {% for post in site.categories.items %}
+            {% for cat in post.categories %}
+                {% if cat == 'research' %}
+          <tr>
+            <td style="padding:2.5%;width:27.5%;vertical-align:middle;min-width:120px">
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:2.5%;width:75%;vertical-align:middle">
+              <h3>{{post.title}}</h3>
+              <br>
+              {{post.authors}}
+
+              <br>
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <br>
+              {% if post.paper %}
+              <a href="{{post.paper}}">paper</a> 
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
+              {% endif %}
+              {% if post.code %}
+              <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.poster %}
+              <a href="{{post.poster}}">poster</a> 
+              {% endif %}
+              {% if post.slides %}
+              <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              {% if post.tech_report %}
+              <a href="{{post.tech_report}}">tech report</a> /
+              {% endif %}
+
+              <p></p>
+              {{ post.excerpt }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </table>
+
+      
+
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:center;font-size:small;">
+                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

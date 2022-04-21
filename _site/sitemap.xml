@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://blake-holman.github.io/</loc>
+  <lastmod>2020-11-27T04:00:32+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://blake-holman.github.io/assets/Blake_Holman_CV.pdf</loc>
+  <lastmod>2020-11-27T04:00:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blake-holman.github.io/assets/papers/SRI_2020_Popularity_in_3DSM.pdf</loc>
+  <lastmod>2020-11-27T04:00:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blake-holman.github.io/assets/images/index/UCLA_Poster__Popularity_in_Three_Dimensional_Stable_Marriage.pdf</loc>
+  <lastmod>2020-11-27T04:00:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blake-holman.github.io/assets/images/index/Baylor_Poster__Popularity_in_Three_Dimensional_Stable_Marriage_with_Ties.pdf</loc>
+  <lastmod>2020-11-27T04:00:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blake-holman.github.io/assets/images/index/Poster_PersonFollowing.pdf</loc>
+  <lastmod>2020-11-27T04:00:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
