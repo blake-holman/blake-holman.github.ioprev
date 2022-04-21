@@ -6,6 +6,7 @@ image: assets/images/index/participant_paths.png
 categories: research
 authors: <strong>Blake Holman</strong>, Abrar Anwar Akash Singh, Mauricio Tec, Justin Hart, Peter Stone
 venue: International Conference on Robotics and Automation
+paper: assets/2021_ICRA_Holman_et_al.pdf
 
 ---
 Leverage virtual reality to collect gaze and position data to create a predictive model and a mixed effects model to show gaze orientation precedes other features
